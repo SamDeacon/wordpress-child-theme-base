@@ -1,0 +1,89 @@
+/*
+ Theme Name:   enigma-child
+ Description:  Enigma Child Theme
+ Author:       Sam Deacon
+ Author URI:   http://samdeacon.me.uk
+ Template:     enigma
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  enigma-child
+*/
+
+@import 'vars';
+
+.logo a{
+    font-family: Georgia!important;
+
+}
+.wl_rtl .logo{
+    text-align: center!important;
+}
+
+
+.enigma_callout_area{
+    display: none!important;
+}
+
+.header_section {
+background-color: $site-red !important;
+}
+.enigma_footer_widget_area {
+background: $site-red !important;
+}
+.enigma_footer_area {
+background: $site-second !important;    
+}
+.enigma_footer_copyright_info{
+    color: $site-red !important;
+    a:hover{
+    color: $site-red !important;       
+    }
+}
+
+.navigation_menu {
+    border-top: 2px solid darken($site-red, 12%)!important;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, .dropdown-menu .active a {
+background-color: $site-red !important;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus{
+background-color: $site-red !important;
+}
+.dropdown-menu {
+background-color: $site-red !important;
+}
+.carousel-list li {
+background: $site-red !important;
+}
+.enigma_blog_read_btn {
+border: 2px solid $site-red !important;
+background-size: 100% 200%;
+background-color: $site-red !important;
+background-image: linear-gradient(to bottom, $site-red 50%, #fff 50%) !important;
+}
+.carousel-text .enigma_blog_read_btn:hover {
+color: $site-red !important;
+}
+.enigma_service_area:hover .enigma_service_iocn i {
+color: $site-red !important;
+}
+.enigma_service_iocn {
+border: 4px solid $site-red !important;
+background-color: $site-red !important;
+background-size: 100% 200%;
+background-image: linear-gradient(to bottom, $site-red 50%, #fff 50%) !important;
+}
+.enigma_service_detail h3 a {
+color: $site-red !important;
+}
+.enigma_heading_title h3 {
+border-bottom: 4px solid $site-red !important;
+}
+.enigma_home_portfolio_showcase .enigma_home_portfolio_showcase_icons a {
+background-color: $site-red !important;
+border: 2px solid $site-red !important;
+}
+.enigma_home_portfolio_showcase .enigma_home_portfolio_showcase_icons a i:hover{
+color: $site-red !important;
+}
